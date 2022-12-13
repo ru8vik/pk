@@ -1,0 +1,110 @@
+body{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: "DIN Next", sans-serif;
+    box-sizing: border-box;
+}
+.nav{
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+}
+.nav2{
+    text-align: center;  
+}
+.nav2 a{
+    padding:8px;
+    text-decoration: none;
+    color: white;
+}
+.nav1{
+    margin: 20px;
+}
+.nav3{
+    display: none;
+}
+@media screen and (min-width:0px) and (max-width:426px) {
+    .nav2 a {
+        display: none;
+    }
+    .nav3 {
+        display: block;
+        margin: 25px;
+        font-size: 20px;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}
+
+
+
+/* */
+
+.abc{
+    background-color: lightblue;
+    text-align: center;
+    padding: 30px;
+}
+.abc h1{
+    margin: 0;
+}
+
+button{
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: 0px solid white;
+}
+
+button:hover{
+    background-color: blue;
+    color: white;
+}
+
+
+/*  */
+
+.awm{
+    background-color: black;
+    color: white;
+    padding: 30px;
+
+}
+
+.awm h1{
+    margin: 0;
+}
+
+@media screen and (max-width:768px) {
+    .awm {
+        display: block;
+    }
+}
+
+
+
+/*  */
+
+.qaz1{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.qaz1 img{
+    margin: 20px;
+    width: 375xp;
+}
+
+@media screen and (max-width:768px){
+    .qaz1 img{
+        display: inline;
+
+    }
+    
+}
